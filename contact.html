@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&family=Noto+Serif+Bengali:wght@500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><title>আপনার কারাতে ক্লাব | যোগাযোগ</title></head><body>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="index.html">
+<!-- লোগো: নিচের <span> মুছে এটি বসান: <img class="logo" src="images/logo.png" alt="ক্লাবের লোগো"> -->
+<img class="logo" src="images/logo.png" alt="ক্লাবের লোগো">আপনার কারাতে ক্লাব</a>
+<button class="menu-btn" aria-expanded="false" aria-label="মেনু">মেনু</button>
+<nav class="nav" aria-label="প্রধান মেনু">
+<a href="index.html">হোম</a><a href="gallery.html">গ্যালারি</a><a href="contact.html" aria-current="page">যোগাযোগ</a>
+</nav></div></header>
+<div class="page-title"><div class="wrap"><h1>যোগাযোগ</h1><p>প্রশ্ন করুন অথবা প্রথম ক্লাসের জন্য জানান।</p></div></div>
+
+<section><div class="wrap grid">
+<div>
+<h2>আমাদের সাথে যোগাযোগ</h2>
+<ul class="links">
+<li>ফোন: <a href="tel:+8801000000000">+880 1000 000000</a></li>
+<li>ফেসবুক: <a href="https://facebook.com/your-page" target="_blank" rel="noopener">facebook.com/your-page</a></li>
+<li>টিকটক: <a href="https://tiktok.com/@your-account" target="_blank" rel="noopener">@your-account</a></li>
+</ul>
+</div>
+<div>
+<h2>আপনার প্রশ্ন পাঠান</h2>
+<!-- Formspree-র ফর্ম আইডি দিয়ে YOUR_FORM_ID বদলে দিন -->
+<form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+<label>আপনার নাম<input type="text" name="name" required></label>
+<label>ইমেইল<input type="email" name="email" required></label>
+<label>আপনার প্রশ্ন<textarea name="message" required></textarea></label>
+<button class="btn" type="submit">প্রশ্ন পাঠান</button>
+<p class="status" role="status" aria-live="polite"></p>
+</form>
+</div>
+</div></section>
+<footer><div class="wrap">&copy; <span id="year"></span> আপনার কারাতে ক্লাব। সর্বস্বত্ব সংরক্ষিত।</div></footer>
+<script src="script.js"></script></body></html>
